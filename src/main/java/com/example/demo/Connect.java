@@ -34,7 +34,7 @@ public class Connect
         List<Vertex> vs = g.V().toList();
         for (Vertex v : vs) {
             System.out.println(" v=" + v.toString());
-        }œˆˆœŒˆ
+        }
 
         Long count = g.V().count().next();
         System.out.println("count=" + count);
